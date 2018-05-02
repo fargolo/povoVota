@@ -1,7 +1,5 @@
 # povoVota
 ## Pré-requisitos:
-### java
-### RSelenium
 ### R Base
-
+#### RCurl
 Testado em Ubuntu 16.04
