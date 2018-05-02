@@ -21,5 +21,5 @@ Meio para que os cadastrados possam divulgar suas preferências a conhecidos.
 Testado em Ubuntu 16.04
 
 ## To do:
-( ) Análise a ser divulgada no server.
+( ) Análise a ser divulgada no server.  
 ( ) Webserver.
