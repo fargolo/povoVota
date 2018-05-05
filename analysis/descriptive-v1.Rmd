@@ -1,0 +1,25 @@
+---
+title: "Analise da prova INEP 2015"
+author: "Felipe Argolo (pingfreud)"
+date: "May 4, 2018"
+output: html_document
+---
+
+## Notas por estado
+
+
+```{r,include=FALSE,echo = FALSE}
+library(xlsx)
+library(knitr)
+library(purrr)
+library(dplyr)
+
+inep2015_df <- read.xlsx("../data/estados-saeb-2015-clean-v2.xlsx",sheetIndex=1)
+```
+
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+inep2015_df %>% filter(localizacao=="Total" & dependecia_adm == "Federal" & X5o_ano_ling_port > 0) %>% select(uf,X5o_ano_ling_port) %>% kable()
+```
