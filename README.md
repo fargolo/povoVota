@@ -14,8 +14,8 @@ Esse transmitirá informações relacionadas a quais pessoas apoiam quais causas
 ### 3 . Mobile / Social Media
 Meio para que os cadastrados possam divulgar suas preferências a conhecidos.
 
-## Stack:
-#### Webscrapping and analysis 
+## Stack atual:
+#### Webscrapping e análise 
 * R Base
     * xlsx
     * knitr
@@ -27,6 +27,12 @@ Meio para que os cadastrados possam divulgar suas preferências a conhecidos.
 
 Testado em Ubuntu 16.04
 
+## Como rodar
+Instale o [Yesod](https://www.yesodweb.com/).
+`$git clone https://github.com/fargolo/povoVota.git`
+`$stack build && stack exec -- yesod devel`
+O server ficará ativo em http://localhost:3000
+
 ## To do:
 ( ) Deploy webserver (Heroku)?
-( ) Improve analysis 
+( ) Aperfeiçoar análise 
