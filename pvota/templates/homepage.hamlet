@@ -1,0 +1,52 @@
+<div .masthead>
+    <div .container>
+        <div .row>
+            <h1 .header>
+                Povo vota - Saiba quem defende você na política
+            <h2>
+                Uma plataforma de dados abertos e compartilhamento de dados 
+            <a href="@{ReportR}" .btn.btn-info.btn-lg>
+                Leia nossos relatórios
+
+<div .container>
+    <!-- Starting
+        ================================================== -->
+    <div .bs-docs-section>
+        <div .row>
+            <div .col-lg-12>
+                <div .page-header>
+                    <h1 #start>Sobre
+
+                    <p>
+                        Uma plataforma colaborativa de engajamento político
+                        Desenvolvida por membros do <a href=http://raulhc.cc/>Raul Hacker Club</a>
+    <hr>
+
+    <!-- JSON
+        ================================================== -->
+    <div .bs-docs-section>
+        <div .row>
+            <div .col-lg-12>
+                <div .page-header>
+                    <h1 #json>Comentários/Sugestões
+
+                    <p>
+                        Comentários e/ou sugestões? Envie aqui.
+                        
+        <div .row>
+            <div .col-lg-6>
+                <div .bs-callout.bs-callout-info.well>
+                    <form .form-horizontal ##{commentFormId}>
+                        <div .field>
+                            <textarea rows="2" ##{commentTextareaId} placeholder="Escreva aqui" required></textarea>
+
+                        <button .btn.btn-primary type=submit>
+                           Enviar
+
+           <div .col-lg-4.col-lg-offset-1>
+               <div .bs-callout.bs-callout-info>
+                   <small>
+                       Seus comentários aparecem aqui.
+                   <ul ##{commentListId}>
+
+    <hr>

@@ -15,11 +15,18 @@ Esse transmitirá informações relacionadas a quais pessoas apoiam quais causas
 Meio para que os cadastrados possam divulgar suas preferências a conhecidos.
 
 ## Stack:
-### Webscrapping em R
-##### R Base
-##### RCurl
+#### Webscrapping and analysis 
+* R Base
+    * xlsx
+    * knitr
+    * purrr
+    * dplyr
+    * RCurl
+#### Webserver
+* Yesod
+
 Testado em Ubuntu 16.04
 
 ## To do:
-( ) Análise a ser divulgada no server.  
-( ) Webserver.
+( ) Deploy webserver (Heroku)?
+( ) Improve analysis 
