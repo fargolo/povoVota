@@ -34,5 +34,5 @@ Instale o [Yesod](https://www.yesodweb.com/).
 O server ficará ativo em http://localhost:3000
 
 ## To do:
-( ) Deploy webserver (Heroku)?
-( ) Aperfeiçoar análise 
+( ) Deploy webserver (Heroku)?  
+( ) Aperfeiçoar análise  
