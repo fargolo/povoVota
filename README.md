@@ -29,9 +29,9 @@ Testado em Ubuntu 16.04
 
 ## Como rodar
 Instale o [Yesod](https://www.yesodweb.com/).
-`$git clone https://github.com/fargolo/povoVota.git`
-`$stack build && stack exec -- yesod devel`
-O server ficará ativo em http://localhost:3000
+`$git clone https://github.com/fargolo/povoVota.git`  
+`$stack build && stack exec -- yesod devel`  
+O server ficará ativo em http://localhost:3000  
 
 ## To do:
 ( ) Deploy webserver (Heroku)?  
